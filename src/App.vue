@@ -1,6 +1,4 @@
 <template>
-<<<<<<< HEAD
-
   <!-- //exercise 04 -->
   <h3>Todo List</h3>
   <p>In this example, the style attribute falls through from App.vue into the li element which is the components root element.</p>
@@ -104,26 +102,12 @@ export default {
       this.items.push(this.newItem);
       this.newItem = '';
     }
-=======
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
->>>>>>> 44c470e (simple-web-01 2nd commit)
   }
 }
 </script>
 
 <style>
-<<<<<<< HEAD
-  /* #app > div {
+#app > div {
     border: dashed black 1px;
     display: inline-block;
     width: 120px;
@@ -133,7 +117,7 @@ export default {
   }
   #app > div:hover {
     cursor: pointer;
-  } */
+  }
 
   #wrapper {
     display: flex;
@@ -152,14 +136,4 @@ ul {
     width: 150px;
     list-style-type: none;
   }
-=======
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
->>>>>>> 44c470e (simple-web-01 2nd commit)
 </style>
