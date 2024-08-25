@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 
   <!-- //exercise 04 -->
   <h3>Todo List</h3>
@@ -103,11 +104,25 @@ export default {
       this.items.push(this.newItem);
       this.newItem = '';
     }
+=======
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+>>>>>>> 44c470e (simple-web-01 2nd commit)
   }
 }
 </script>
 
 <style>
+<<<<<<< HEAD
   /* #app > div {
     border: dashed black 1px;
     display: inline-block;
@@ -137,4 +152,14 @@ ul {
     width: 150px;
     list-style-type: none;
   }
+=======
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+>>>>>>> 44c470e (simple-web-01 2nd commit)
 </style>
